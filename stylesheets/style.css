@@ -5582,7 +5582,7 @@ a {
   line-height: inherit; }
   /* line 205, /Users/mjesuele/www/kdj-responsive/source/bower_components/foundation/scss/foundation/components/_type.scss */
   a:hover, a:focus {
-    color: #177eff; }
+    color: #4195ff; }
   /* line 207, /Users/mjesuele/www/kdj-responsive/source/bower_components/foundation/scss/foundation/components/_type.scss */
   a img {
     border: none; }
@@ -6580,3 +6580,25 @@ th.hide-for-touch {
 /* line 74, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
 .list-caption-paragraph {
   margin-bottom: 0.5em; }
+
+/* line 80, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+.blog-article > header a, .blog-article-summary > header a {
+  color: inherit; }
+/* line 82, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+.blog-article > header a:hover, .blog-article-summary > header a:hover {
+  color: #848484; }
+
+/* line 85, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+.blog-article-summary {
+  padding-bottom: 1rem;
+  margin-bottom: 2rem; }
+  /* line 86, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+  .blog-article-summary:not(:last-of-type) {
+    border-bottom: 1px dotted #666666; }
+
+/* line 92, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+.blog-navigation a {
+  font-weight: bold; }
+/* line 94, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+.blog-navigation .blog-newer-link {
+  text-align: right; }
