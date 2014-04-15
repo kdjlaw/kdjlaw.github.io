@@ -4817,7 +4817,7 @@ table {
     margin-top: -5px; } }
 /* line 103, /Users/mjesuele/www/kdj-responsive/source/bower_components/foundation/scss/foundation/components/_top-bar.scss */
 meta.foundation-mq-topbar {
-  font-family: "/only screen and (min-width: 860px)/";
+  font-family: "/only screen and (min-width: 800px)/";
   width: 40.063em; }
 
 /* Wrapped around .top-bar to contain to grid width */
@@ -5183,7 +5183,7 @@ meta.foundation-mq-topbar {
 .js-generated {
   display: block; }
 
-@media only screen and (min-width: 860px) {
+@media only screen and (min-width: 800px) {
   /* line 431, /Users/mjesuele/www/kdj-responsive/source/bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar {
     background: #14252c;
@@ -6501,12 +6501,43 @@ th.hide-for-touch {
 .touch th.show-for-touch {
   display: table-cell !important; }
 
-@media only screen and (min-width: 860px) {
-  /* line 4, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+/* line 6, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+#home-hero, #footer {
+  max-width: 100%; }
+
+/* line 9, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+.locations-served-list, .practice-areas-list, .blog-tags-list {
+  font-size: 0.8em;
+  list-style-type: none;
+  margin-top: 0;
+  margin-left: 0; }
+
+/* line 15, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+#footer-nav > ul {
+  list-style-type: none;
+  font-weight: 700;
+  margin-left: 0; }
+  /* line 19, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+  #footer-nav > ul > li {
+    display: inline-block;
+    margin: 0 1rem; }
+
+/* line 27, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", sans-serif; }
+  /* line 29, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+  h1 + p, h1 + section, h1 + dl, h2 + p, h2 + section, h2 + dl, h3 + p, h3 + section, h3 + dl, h4 + p, h4 + section, h4 + dl, h5 + p, h5 + section, h5 + dl, h6 + p, h6 + section, h6 + dl {
+    margin-top: 1.75rem; }
+  /* line 31, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+  p + h1, p + h2, p + h3, p + h4, p + h5, p + h6 {
+    margin-top: 1.75rem; }
+
+@media only screen and (min-width: 800px) {
+  /* line 36, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
   #navbar {
     padding-left: 1rem; } }
 
-/* line 8, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+/* line 42, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
 #home-hero {
   background-image: url("../img/eagle.png"), url("../img/nyc-supreme-court.jpg");
   background-size: auto 100%, cover;
@@ -6516,28 +6547,28 @@ th.hide-for-touch {
   border-top: 1px solid white;
   padding: 4rem 2rem; }
   @media screen and (max-width: 1064px) {
-    /* line 8, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+    /* line 42, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
     #home-hero {
       background-image: url("../img/nyc-supreme-court.jpg");
       background-size: cover;
       background-position: center center; } }
-  /* line 22, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+  /* line 56, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
   #home-hero h1, #home-hero h2 {
     color: white;
     font-family: "Lora", serif;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6); }
 
-/* line 27, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+/* line 63, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
 #main {
   border-top: 1rem solid #14252c;
   padding-top: 2rem; }
   @media only screen and (min-width: 40.063em) {
-    /* line 27, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+    /* line 63, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
     #main {
       padding-left: 2rem;
       padding-right: 2rem; } }
 
-/* line 34, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+/* line 72, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
 #footer {
   color: white;
   margin-top: 3.5rem;
@@ -6545,60 +6576,56 @@ th.hide-for-touch {
   padding-bottom: 1rem;
   background-color: #14252c;
   text-align: center; }
-  /* line 43, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+  /* line 81, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
   #footer ul, #footer p {
     font-size: 0.8em; }
-  /* line 45, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+  /* line 83, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
   #footer a {
     color: #cbcbcb; }
-  /* line 47, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+  /* line 85, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
   #footer a:hover, #footer a:active {
     color: white;
     text-decoration: underline; }
 
-/* line 54, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
-#home-hero, #footer {
-  max-width: 100%; }
+/* line 96, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+#sidebar h1 + p, #sidebar h2 + p, #sidebar h3 + p, #sidebar h4 + p, #sidebar h5 + p, #sidebar h6 + p {
+  margin-top: 0.75rem; }
 
-/* line 57, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
-.locations-served-list, .practice-areas-list {
-  font-size: 0.8em;
-  list-style-type: none;
-  margin-top: 0;
-  margin-left: 0; }
-
-/* line 63, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
-#footer-nav > ul {
-  list-style-type: none;
-  font-weight: 700;
-  margin-left: 0; }
-  /* line 67, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
-  #footer-nav > ul > li {
-    display: inline-block;
-    margin: 0 1rem; }
-
-/* line 74, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+/* line 102, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
 .list-caption-paragraph {
   margin-bottom: 0.5em; }
 
-/* line 80, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
-.blog-article > header a, .blog-article-summary > header a {
-  color: inherit; }
-/* line 82, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
-.blog-article > header a:hover, .blog-article-summary > header a:hover {
-  color: #848484; }
+/* line 107, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+.blog-article > header, .blog-article-summary > header {
+  margin-bottom: 1.5rem; }
+  /* line 109, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+  .blog-article > header .article-title, .blog-article > header .article-byline, .blog-article-summary > header .article-title, .blog-article-summary > header .article-byline {
+    font-family: "Lato", sans-serif; }
+  /* line 111, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+  .blog-article > header .article-title, .blog-article-summary > header .article-title {
+    margin-bottom: 0; }
+  /* line 113, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+  .blog-article > header .article-byline, .blog-article-summary > header .article-byline {
+    font-size: 0.9em;
+    margin-top: 0; }
+  /* line 116, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+  .blog-article > header a, .blog-article-summary > header a {
+    color: inherit; }
+  /* line 118, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+  .blog-article > header a:hover, .blog-article-summary > header a:hover {
+    color: #848484; }
 
-/* line 85, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+/* line 121, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
 .blog-article-summary {
   padding-bottom: 1rem;
   margin-bottom: 2rem; }
-  /* line 86, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+  /* line 122, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
   .blog-article-summary:not(:last-of-type) {
     border-bottom: 1px dotted #666666; }
 
-/* line 92, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+/* line 128, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
 .blog-navigation a {
   font-weight: bold; }
-/* line 94, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
+/* line 130, /Users/mjesuele/www/kdj-responsive/source/stylesheets/style.css.sass */
 .blog-navigation .blog-newer-link {
   text-align: right; }
