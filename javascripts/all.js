@@ -9191,8 +9191,9 @@ $(document).foundation();
       }
       successHandler = function(response) {
         var successAlert;
+        window.response = response;
         console.log(response);
-        if (response === '200') {
+        if (response === 200) {
           successAlert = $('\
 					<div data-alert class="alert-box success radius">\
 					  Message sent! We will be in touch with you shortly.\

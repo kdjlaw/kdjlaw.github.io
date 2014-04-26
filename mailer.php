@@ -1,8 +1,12 @@
 <?php
+header('content-type: application/json; charset=utf-8');
+header("access-control-allow-origin: *");
+
 $name = $_POST['name'];
 $contact = $_POST['contact'];
 $message = $_POST['message'];
 
+//$to = 'kessler54@comcast.net';
 $to = 'mjesuele@gmail.com';
 
 $subject = 'Contact Form Submission - kdjlawoffice.com';
