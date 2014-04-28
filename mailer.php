@@ -7,7 +7,7 @@ $contact = $_POST['contact'];
 $message = $_POST['message'];
 
 //$to = 'kessler54@comcast.net';
-$to = 'mjesuele@gmail.com';
+$to = 'vj.kdjlaw@gmail.com';
 
 $subject = 'Contact Form Submission - kdjlawoffice.com';
 $message = 'From: '.$name."\nContact: ".$contact."\n\nMessage: ".$message;
